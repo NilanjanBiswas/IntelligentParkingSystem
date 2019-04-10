@@ -9,5 +9,9 @@
  * @author nilanjanbiswas
  */
 public class Parking {
+    private int ID;
+    private String ParkingType;
+    private String SpaceNumber;
+    
     
 }

@@ -9,5 +9,11 @@
  * @author nilanjanbiswas
  */
 public class User {
+    private int ID;
+    private String Name;
+    private String ContactNumber;
+    private String VechileId;
+    private String UniversityId;
+    
     
 }

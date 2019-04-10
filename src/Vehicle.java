@@ -9,5 +9,9 @@
  * @author nilanjanbiswas
  */
 public class Vehicle {
+    private int ID;
+    private String VehcileType;
+    private String VehcileNo;
+    
     
 }
