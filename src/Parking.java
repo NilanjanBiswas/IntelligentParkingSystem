@@ -12,6 +12,30 @@ public class Parking {
     private int ID;
     private String ParkingType;
     private String SpaceNumber;
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public String getParkingType() {
+        return ParkingType;
+    }
+
+    public void setParkingType(String ParkingType) {
+        this.ParkingType = ParkingType;
+    }
+
+    public String getSpaceNumber() {
+        return SpaceNumber;
+    }
+
+    public void setSpaceNumber(String SpaceNumber) {
+        this.SpaceNumber = SpaceNumber;
+    }
     
     
 }
