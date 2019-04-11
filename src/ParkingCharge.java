@@ -9,5 +9,25 @@
  * @author nilanjanbiswas
  */
 public class ParkingCharge {
+    private int ID;
+    private String Charge;
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public String getCharge() {
+        return Charge;
+    }
+
+    public void setCharge(String Charge) {
+        this.Charge = Charge;
+    }
+    
+    
     
 }
