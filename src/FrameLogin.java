@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+//Importing all necessary Packages
 
 /**
  *
@@ -10,10 +11,17 @@
  * 
  */
 //Importing all necessary Packages
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+    import javax.swing.JFrame;
+    import javax.swing.JOptionPane;
+    import javax.swing.JTextField;
+    import javax.swing.JPasswordField;
+    import javax.swing.JLabel;
+    import javax.swing.JButton;
+    import java.awt.event.ActionEvent;
+    import java.awt.event.ActionListener;
+    import java.io.File;
+    import java.io.FileNotFoundException;
+    import java.util.Scanner;
 public class FrameLogin extends javax.swing.JFrame {
 
     /**
