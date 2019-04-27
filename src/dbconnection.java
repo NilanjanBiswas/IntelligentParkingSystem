@@ -17,7 +17,7 @@ try{
 Class.forName("com.mysql.jdbc.Driver");  
 Connection con=DriverManager.getConnection(  
 "jdbc:mysql://localhost:3306/intelligentparkingsystem","root","cbr250rr");  
-//here sonoo is database name, root is username and password  
+//here intelligentparkingsystem is database name, root is username and password  
 Statement stmt=con.createStatement();  
 ResultSet rs=stmt.executeQuery("select * from user");  
 while(rs.next())  
