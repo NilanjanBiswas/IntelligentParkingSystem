@@ -17,6 +17,8 @@ public class Main {
         FrameLogin login=new FrameLogin();
         login.setVisible(true);
         // TODO code application logic here
+        MySqlDbCon mySqlDbCon = new MySqlDbCon();
+        mySqlDbCon.testConnection();
     }
     
 }
